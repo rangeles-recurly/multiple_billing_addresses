@@ -30,6 +30,29 @@ def authenticate():
     # Set a default currency for your API requests
     recurly.DEFAULT_CURRENCY = 'USD'
 
+def retrieve_and_iterate_accounts():
+    '''Function that retrieves all accounts and passes it to copy the address'''
+    logger.info('Retrieving all Accounts')
+    accounts = Account.all()
+    logger.info(('Retrieved a total of: {}').format(len(accounts)))
+
+    logger.info('Starting copying of Account Address to Shipping Address')
+    copy_acc_address_to_ship_address(accounts)
+
+def copy_acc_address_to_ship_address(accounts):
+    '''Function that takes a list of accounts and copies their account addresses
+
+    to the shipping address.'''
+    for account in accounts:
+
+        # create the shipping address on the account
+        account.shipping_addresses.create(
+
+        )
+
+def copy_acc
+
+
 def process_csv(csv_to_process = csv_file, testing_mode = testing_mode):
     '''A function that Processes the CSV file passsed as an argument using
         a DictReader'''
