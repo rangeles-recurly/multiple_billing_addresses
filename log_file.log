@@ -1,0 +1,87 @@
+2016-08-31 16:06:57,992 INFO <module> 131: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:06:57,992 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:06:57,992 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:06:57,992 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:06:59,038 INFO retrieve_and_iterate_accounts 40: Retrieved a total of: 2 Active accounts
+2016-08-31 16:06:59,038 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:06:59,512 INFO copy_acc_address_to_ship_address 58: Creating a new shipping address object
+2016-08-31 16:06:59,513 WARNING retrieve_and_iterate_accounts 52: company
+2016-08-31 16:10:38,590 INFO <module> 131: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:10:38,590 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:10:38,590 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:10:38,590 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:10:39,129 INFO retrieve_and_iterate_accounts 40: Retrieved a total of: 2 Active accounts
+2016-08-31 16:10:39,130 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:10:39,630 INFO copy_acc_address_to_ship_address 58: Creating a new shipping address object
+2016-08-31 16:10:39,631 INFO copy_acc_address_to_ship_address 77: Added a shipping address to account: sexycustomer01
+2016-08-31 16:10:39,631 WARNING retrieve_and_iterate_accounts 52: 'function' object is not iterable
+2016-08-31 16:15:53,054 INFO <module> 131: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:15:53,054 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:15:53,055 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:15:53,055 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:15:54,130 INFO retrieve_and_iterate_accounts 40: Retrieved a total of: 2 Active accounts
+2016-08-31 16:15:54,130 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:15:54,391 INFO copy_acc_address_to_ship_address 58: Creating a new shipping address object
+2016-08-31 16:15:54,392 INFO copy_acc_address_to_ship_address 77: Added a shipping address to account: sexycustomer01
+2016-08-31 16:15:54,392 WARNING retrieve_and_iterate_accounts 52: 'function' object is not iterable
+2016-08-31 16:21:23,138 INFO <module> 132: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:21:23,138 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:21:23,139 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:21:23,139 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:21:24,070 INFO retrieve_and_iterate_accounts 40: Retrieved a total of: 2 Active accounts
+2016-08-31 16:21:24,070 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:21:24,530 INFO copy_acc_address_to_ship_address 59: Creating a new shipping address object
+2016-08-31 16:21:24,531 INFO copy_acc_address_to_ship_address 78: Added a shipping address to account: sexycustomer01
+2016-08-31 16:21:24,531 WARNING retrieve_and_iterate_accounts 53: 'function' object is not iterable
+2016-08-31 16:22:27,824 INFO <module> 128: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:22:27,824 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:22:27,824 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:22:27,825 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:22:28,146 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:22:28,614 INFO copy_acc_address_to_ship_address 55: Creating a new shipping address object
+2016-08-31 16:22:28,615 INFO copy_acc_address_to_ship_address 74: Added a shipping address to account: sexycustomer01
+2016-08-31 16:22:28,615 WARNING retrieve_and_iterate_accounts 49: 'function' object is not iterable
+2016-08-31 16:25:21,960 INFO <module> 129: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:25:21,962 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:25:21,962 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:25:21,963 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:25:22,530 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:25:23,058 INFO copy_acc_address_to_ship_address 55: Creating a new shipping address object
+2016-08-31 16:25:23,058 INFO copy_acc_address_to_ship_address 74: Added a shipping address to account: sexycustomer01
+2016-08-31 16:25:23,059 WARNING retrieve_and_iterate_accounts 49: 'function' object is not iterable
+2016-08-31 16:26:08,258 INFO <module> 132: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:26:08,259 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:26:08,259 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:26:08,260 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:26:08,941 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:26:09,176 INFO copy_acc_address_to_ship_address 55: Creating a new shipping address object
+2016-08-31 16:26:09,177 INFO copy_acc_address_to_ship_address 74: Added a shipping address to account: sexycustomer01
+2016-08-31 16:26:09,178 WARNING copy_acc_address_to_ship_address 83: 'function' object is not iterable
+2016-08-31 16:26:09,322 WARNING retrieve_and_iterate_accounts 49: invalid_xml: The provided XML was invalid. You can only nest shipping_addresses in your XML when creating a new record, not when updating.
+2016-08-31 16:27:27,564 INFO <module> 132: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:27:27,565 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:27:27,565 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:27:27,565 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:27:28,607 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:27:29,072 INFO copy_acc_address_to_ship_address 55: Creating a new shipping address object
+2016-08-31 16:27:29,073 INFO copy_acc_address_to_ship_address 74: Added a shipping address to account: sexycustomer01
+2016-08-31 16:27:29,073 ERROR copy_acc_address_to_ship_address 83: 'function' object is not iterable
+2016-08-31 16:27:29,252 ERROR retrieve_and_iterate_accounts 49: invalid_xml: The provided XML was invalid. You can only nest shipping_addresses in your XML when creating a new record, not when updating.
+2016-08-31 16:46:28,393 INFO <module> 132: ***** Starting New Address Transfer ***** %s 
+
+2016-08-31 16:46:28,393 INFO authenticate 19: Attempting to Authenticate
+2016-08-31 16:46:28,393 INFO authenticate 26: Finished Authenticating
+2016-08-31 16:46:28,393 INFO retrieve_and_iterate_accounts 32: Retrieving all Accounts
+2016-08-31 16:46:29,391 INFO retrieve_and_iterate_accounts 42: Starting copying of Account Address to Shipping Address
+2016-08-31 16:46:29,633 INFO copy_acc_address_to_ship_address 55: Creating a new shipping address object
+2016-08-31 16:46:29,633 INFO copy_acc_address_to_ship_address 74: Added a shipping address to account: sexycustomer01
+2016-08-31 16:46:29,634 ERROR copy_acc_address_to_ship_address 83: 'function' object is not iterable
+2016-08-31 16:46:29,803 ERROR retrieve_and_iterate_accounts 49: invalid_xml: The provided XML was invalid. You can only nest shipping_addresses in your XML when creating a new record, not when updating.

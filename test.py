@@ -11,11 +11,20 @@ recurly.API_KEY = '70c38822639f49f1a17e167eb8876682'
 
 temp_account = Account.get('sexycustomer01')
 
-print temp_account.address.address1
+foo = temp_account.shipping_addresses()
+
+
+#for shad in temp_account.shipping_addresses()
+for shad in temp_account.shipping_addresses():
+    print shad.nickname
+
 
 #print temp_account.shipping_addresses
 #temp_account.shipping_addresses.address1 = '615 Cole St'
 #temp_account.save()
+
 '''
-for account in Account.all():
+gen_ex = (account for account in Account.all() if account.state == 'active')
+
+for account in gen_ex:
     print 'Account Code: %s' % account.account_code'''

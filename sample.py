@@ -12,6 +12,7 @@ if 'DEBUG' in os.environ:
     import logging
     logging.basicConfig(level=logging.INFO)
     logging.getLogger('recurly').setLevel(logging.DEBUG)
+
 recurly.BASE_URI = 'http://%s.lvh.me:3000/v2/'
 recurly.SUBDOMAIN = 'csmb'
 recurly.API_KEY = 'b3d39b00db454345870dee97c4a4ffc7'
