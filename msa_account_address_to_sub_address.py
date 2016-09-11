@@ -31,7 +31,8 @@ def retrieve_and_iterate_accounts():
 
     logger.info('Retrieving all Accounts')
     # accounts = Account.all()
-    gen_ex = (account for account in Account.all() if account.state == 'active')
+    '''gen_ex = (account for account in Account.all() if
+        account.state == 'active')'''
 
     # get length without O(n) list generation
     #num_of_accounts = sum(1 for x in gen_ex)
@@ -55,7 +56,7 @@ def copy_acc_address_to_ship_address(account):
     logger.info('Creating a new shipping address object')
     # create a shipping address object
     shad = ShippingAddress()
-    shad.nickname = "TempAddressName"
+    shad.nickname = "ShippingAddress"
     shad.first_name = account.first_name
     shad.last_name = account.last_name
     #shad.company = account.company
@@ -68,33 +69,38 @@ def copy_acc_address_to_ship_address(account):
     shad.zip = account.address.zip
     shad.country = account.address.country
 
-    # add the shipping address to it's list of shipping addresses
-    account.shipping_addresses = [shad]
-    logger.info('Added a shipping address to account: %s'
-        % account.account_code)
+
+    try:
+        # add the shipping address to the account
+        account.create_shipping_address(shad)
+        account.save()
+        logger.info('Added a shipping address to account: %s'
+            % account.account_code)
+    except Exception, e;
+        logger.error(e)
 
     try:
         # add the shipping address to all subs on the account
-        for subscription in account.subscriptions:
-            #subscription.shipping_address = shad
-            #logger.info('Added a shipping address to sub: %s' % subscription.uuid)
-            print 'Subscription: %s' % subscription
+        logger.info(('Attempting to add shipping address to {} '
+            'subscriptions.').format(len(account.subscriptions())))
+
+        for subscription in account.subscriptions():
+            # subscription = Subscription.get(subscription)
+            add_shipping_address_to_sub(account, shad, subscription)
     except Exception, e:
         logger.error(e)
 
-    account.save()
-    logger.info('Completed Updating Account: %s \n' % account.account_code)
+    logger.info('Completed Updating and saving Account: %s \n'
+        % account.account_code)
 
-'''
-    logger.info(('Adding charge to: {} {} {} {} {} {} '
-        'Invoice Group: {}').format(
-        charge['influencerfirstname'],
-        charge['influencerlastname'],
-        charge['customername'],
-        charge['programname'],
-        charge['amountdue'],
-        charge['postedat'],
-        charge['invoicegroup']))'''
+def add_shipping_address_to_sub(account, shad, subscription):
+        #logger.info('Added a shipping address to sub: %s' % subscription.uuid
+        try:
+            subscription.shipping_address = shad
+            subscription.save()
+            logger.info('Added a shipping address to subscription.'
+        except Exception, e:
+            logger.error(e)
 
 
 def initiate_logging(log_level = log_level_desired):
