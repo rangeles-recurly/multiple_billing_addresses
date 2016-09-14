@@ -76,31 +76,34 @@ def copy_acc_address_to_ship_address(account):
         account.save()
         logger.info('Added a shipping address to account: %s'
             % account.account_code)
-    except Exception, e;
-        logger.error(e)
-
-    try:
-        # add the shipping address to all subs on the account
-        logger.info(('Attempting to add shipping address to {} '
-            'subscriptions.').format(len(account.subscriptions())))
-
-        for subscription in account.subscriptions():
-            # subscription = Subscription.get(subscription)
-            add_shipping_address_to_sub(account, shad, subscription)
     except Exception, e:
         logger.error(e)
+
+    if len(account.subscriptions()) > 0:
+        try:
+            # add the shipping address to all subs on the account
+            logger.info(('Attempting to add shipping address to {}'
+                ' subscriptions.').format(len(account.subscriptions())))
+
+            for subscription in account.subscriptions():
+                # subscription = Subscription.get(subscription)
+                add_shipping_address_to_sub(account, shad, subscription)
+        except Exception, e:
+            logger.error(e)
+    else:
+        logger.info('No subscriptions on this account.')
 
     logger.info('Completed Updating and saving Account: %s \n'
         % account.account_code)
 
 def add_shipping_address_to_sub(account, shad, subscription):
-        #logger.info('Added a shipping address to sub: %s' % subscription.uuid
-        try:
-            subscription.shipping_address = shad
-            subscription.save()
-            logger.info('Added a shipping address to subscription.'
-        except Exception, e:
-            logger.error(e)
+    #logger.info('Added a shipping address to sub: %s' % subscription.uuid
+    try:
+        subscription.shipping_address_id = shad.id
+        subscription.save()
+        logger.info('Added a shipping address to subscription.')
+    except Exception, e:
+        logger.error(e)
 
 
 def initiate_logging(log_level = log_level_desired):
