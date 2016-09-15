@@ -59,7 +59,6 @@ def copy_acc_address_to_ship_address(account):
     shad.nickname = "ShippingAddress"
     shad.first_name = account.first_name
     shad.last_name = account.last_name
-    #shad.company = account.company
     shad.phone = account.address.phone
     shad.email = account.email
     shad.address1 = account.address.address1
@@ -78,6 +77,8 @@ def copy_acc_address_to_ship_address(account):
             % account.account_code)
     except Exception, e:
         logger.error(e)
+        logger.error('Unable to add a shipping address to: %s'
+            % account.account_code)
 
     if len(account.subscriptions()) > 0:
         try:
@@ -97,13 +98,14 @@ def copy_acc_address_to_ship_address(account):
         % account.account_code)
 
 def add_shipping_address_to_sub(account, shad, subscription):
-    #logger.info('Added a shipping address to sub: %s' % subscription.uuid
     try:
         subscription.shipping_address_id = shad.id
         subscription.save()
         logger.info('Added a shipping address to subscription.')
     except Exception, e:
         logger.error(e)
+        logger.error('Unable to add a shipping address to subscription: %s'
+            % account.account_code)
 
 
 def initiate_logging(log_level = log_level_desired):
@@ -134,7 +136,6 @@ def initiate_logging(log_level = log_level_desired):
     # Add handlers to the loggers
     logger.addHandler(file_handler)
     logger.addHandler(console_handler)
-
 
 if __name__ == "__main__":
     initiate_logging()

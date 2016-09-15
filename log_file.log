@@ -1,0 +1,13 @@
+2016-09-14 16:46:26,824 ERROR retrieve_and_iterate_accounts 50: object of type 'bool' has no len()
+2016-09-14 16:48:38,104 ERROR copy_acc_address_to_ship_address 79: blank: shipping_address.city can't be blank; blank: shipping_address.zip can't be blank; blank: shipping_address.address1 can't be blank
+2016-09-14 16:48:38,109 ERROR copy_acc_address_to_ship_address 81: Unable to add a shipping address to: asdfawesome
+2016-09-14 16:48:39,174 ERROR add_shipping_address_to_sub 106: id
+2016-09-14 16:48:39,174 ERROR add_shipping_address_to_sub 108: Unable to add a shipping address to subscription: asdfawesome
+2016-09-14 16:58:36,963 ERROR copy_acc_address_to_ship_address 79: blank: shipping_address.city can't be blank; blank: shipping_address.zip can't be blank; blank: shipping_address.address1 can't be blank
+2016-09-14 16:58:36,965 ERROR copy_acc_address_to_ship_address 81: Unable to add a shipping address to: sexycustomer01
+2016-09-14 16:58:37,507 ERROR add_shipping_address_to_sub 106: id
+2016-09-14 16:58:37,507 ERROR add_shipping_address_to_sub 108: Unable to add a shipping address to subscription: sexycustomer01
+2016-09-14 16:58:37,686 ERROR copy_acc_address_to_ship_address 79: blank: shipping_address.city can't be blank; blank: shipping_address.zip can't be blank; blank: shipping_address.address1 can't be blank
+2016-09-14 16:58:37,686 ERROR copy_acc_address_to_ship_address 81: Unable to add a shipping address to: asdfawesome
+2016-09-14 16:58:38,216 ERROR add_shipping_address_to_sub 106: id
+2016-09-14 16:58:38,216 ERROR add_shipping_address_to_sub 108: Unable to add a shipping address to subscription: asdfawesome
