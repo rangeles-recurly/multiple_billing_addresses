@@ -3,7 +3,14 @@ Multiple Shipping Adress Copying
 Created: 8/17/2016
 Python Version 2.7.11
 
+Desc:
 This Script that copies Account Addresses to Subscription Addresses
+
+Conditions:
+    - Account must be Active
+    - Account Address must Exist
+    - A shipping address must NOT Exist already
+
 '''
 
 import sys, csv, logging, recurly
@@ -13,7 +20,6 @@ from logging.handlers import RotatingFileHandler
 # name of csv file to be passed as argument
 #csv_file = sys.argv[1]
 log_level_desired = sys.argv[1]
-testing_mode = (sys.argv[2] == 'True')
 
 def authenticate():
     logger.info('Attempting to Authenticate')
@@ -40,12 +46,19 @@ def retrieve_and_iterate_accounts():
     '''logger.info(('Retrieved a total of: {} Active accounts').format(
         num_of_accounts))'''
 
-    logger.info('Starting copying of Account Address to Shipping Address')
+    logger.info('Starting copying of Account Address to Shipping Address \n')
 
     try:
         for account in Account.all():
-            if account.state == 'active':
+            shad = account.shipping_addresses()
+            if account.state == 'active' and len(shad) == 0:
                 copy_acc_address_to_ship_address(account)
+
+            elif account.state == 'active' and len(shad) > 0:
+                logger.error('Account already has a shipping address: %s'
+                    % account.account_code)
+            else:
+                logger.info('Inactive Account: %s' % account.account_code)
     except Exception, e:
         logger.error(e)
 

@@ -11,3 +11,272 @@
 2016-09-14 16:58:37,686 ERROR copy_acc_address_to_ship_address 81: Unable to add a shipping address to: asdfawesome
 2016-09-14 16:58:38,216 ERROR add_shipping_address_to_sub 106: id
 2016-09-14 16:58:38,216 ERROR add_shipping_address_to_sub 108: Unable to add a shipping address to subscription: asdfawesome
+2016-09-20 16:14:33,762 INFO <module> 159: ***** Starting New Upload ***** csv_sample.csv 
+
+2016-09-20 16:14:33,762 INFO authenticate 21: Attempting to Authenticate
+2016-09-20 16:16:46,059 INFO <module> 159: ***** Starting New Upload ***** csv_sample.csv 
+
+2016-09-20 16:16:46,059 INFO authenticate 21: Attempting to Authenticate
+2016-09-20 16:17:13,486 INFO <module> 159: ***** Starting New Upload ***** csv_sample.csv 
+
+2016-09-20 16:17:13,486 INFO authenticate 21: Attempting to Authenticate
+2016-09-20 16:17:13,486 INFO authenticate 28: Finished Authenticating
+2016-09-20 16:17:13,486 INFO process_csv 34: Beginning to Process CSV: csv_sample.csv
+2016-09-20 16:17:13,486 DEBUG process_csv 35: Testing Mode: False
+2016-09-20 16:17:13,487 INFO process_csv 40: CSV file opened has 1 rows to process.
+2016-09-27 16:23:44,431 INFO <module> 155: ***** Starting New Address Transfer ***** %s 
+
+2016-09-27 16:23:44,431 INFO authenticate 25: Attempting to Authenticate
+2016-09-27 16:23:44,431 INFO authenticate 32: Finished Authenticating
+2016-09-27 16:23:44,431 INFO retrieve_and_iterate_accounts 38: Retrieving all Accounts
+2016-09-27 16:23:44,432 INFO retrieve_and_iterate_accounts 49: Starting copying of Account Address to Shipping Address
+2016-09-27 16:23:45,669 ERROR retrieve_and_iterate_accounts 59: Account already has a shipping address: sexycustomer03
+2016-09-27 16:23:46,075 INFO copy_acc_address_to_ship_address 69: Creating a new shipping address object
+2016-09-27 16:23:46,682 INFO copy_acc_address_to_ship_address 90: Added a shipping address to account: sexycustomer02
+2016-09-27 16:23:47,327 INFO copy_acc_address_to_ship_address 100: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:23:47,885 INFO add_shipping_address_to_sub 117: Added a shipping address to subscription.
+2016-09-27 16:23:47,885 INFO copy_acc_address_to_ship_address 111: Completed Updating and saving Account: sexycustomer02 
+
+2016-09-27 16:23:47,885 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31wewqe6
+2016-09-27 16:23:47,885 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qweqwe7
+2016-09-27 16:23:47,886 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qqq5
+2016-09-27 16:23:47,886 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31ewew4
+2016-09-27 16:23:47,886 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qwe3
+2016-09-27 16:23:47,886 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31w2
+2016-09-27 16:23:47,887 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qwe1
+2016-09-27 16:23:47,888 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3ew9
+2016-09-27 16:23:47,888 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31ew0
+2016-09-27 16:23:47,888 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-37qweqw
+2016-09-27 16:23:47,889 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3ew8
+2016-09-27 16:23:47,889 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-36wqew
+2016-09-27 16:23:47,889 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3a3
+2016-09-27 16:23:47,889 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-35w
+2016-09-27 16:23:47,890 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3asds4
+2016-09-27 16:23:47,890 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3sdf2
+2016-09-27 16:23:47,890 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3sd1
+2016-09-27 16:23:48,248 ERROR retrieve_and_iterate_accounts 59: Account already has a shipping address: sexycustomer01
+2016-09-27 16:23:48,574 ERROR retrieve_and_iterate_accounts 59: Account already has a shipping address: asdfawesome
+2016-09-27 16:27:23,277 INFO <module> 155: ***** Starting New Address Transfer ***** %s 
+
+2016-09-27 16:27:23,277 INFO authenticate 25: Attempting to Authenticate
+2016-09-27 16:27:23,278 INFO authenticate 32: Finished Authenticating
+2016-09-27 16:27:23,278 INFO retrieve_and_iterate_accounts 38: Retrieving all Accounts
+2016-09-27 16:27:23,278 INFO retrieve_and_iterate_accounts 49: Starting copying of Account Address to Shipping Address
+2016-09-27 16:27:24,198 ERROR retrieve_and_iterate_accounts 59: Account already has a shipping address: sexycustomer03
+2016-09-27 16:27:24,381 INFO copy_acc_address_to_ship_address 69: Creating a new shipping address object
+2016-09-27 16:27:24,864 INFO copy_acc_address_to_ship_address 90: Added a shipping address to account: sexycustomer02
+2016-09-27 16:27:25,517 INFO copy_acc_address_to_ship_address 100: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:27:25,942 INFO add_shipping_address_to_sub 117: Added a shipping address to subscription.
+2016-09-27 16:27:25,942 INFO copy_acc_address_to_ship_address 111: Completed Updating and saving Account: sexycustomer02 
+
+2016-09-27 16:27:26,323 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31wewqe6
+2016-09-27 16:27:26,495 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qweqwe7
+2016-09-27 16:27:26,650 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qqq5
+2016-09-27 16:27:26,824 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31ewew4
+2016-09-27 16:27:26,981 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qwe3
+2016-09-27 16:27:27,155 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31w2
+2016-09-27 16:27:27,312 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qwe1
+2016-09-27 16:27:27,478 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3ew9
+2016-09-27 16:27:27,633 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31ew0
+2016-09-27 16:27:27,805 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-37qweqw
+2016-09-27 16:27:28,034 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3ew8
+2016-09-27 16:27:28,191 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-36wqew
+2016-09-27 16:27:28,353 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3a3
+2016-09-27 16:27:28,510 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-35w
+2016-09-27 16:27:28,677 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3asds4
+2016-09-27 16:27:28,842 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3sdf2
+2016-09-27 16:27:29,024 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3sd1
+2016-09-27 16:27:29,181 ERROR retrieve_and_iterate_accounts 59: Account already has a shipping address: sexycustomer01
+2016-09-27 16:27:29,334 ERROR retrieve_and_iterate_accounts 59: Account already has a shipping address: asdfawesome
+2016-09-27 16:34:01,755 INFO <module> 156: ***** Starting New Address Transfer ***** %s 
+
+2016-09-27 16:34:01,755 INFO authenticate 25: Attempting to Authenticate
+2016-09-27 16:34:01,755 INFO authenticate 32: Finished Authenticating
+2016-09-27 16:34:01,756 INFO retrieve_and_iterate_accounts 38: Retrieving all Accounts
+2016-09-27 16:34:01,756 INFO retrieve_and_iterate_accounts 49: Starting copying of Account Address to Shipping Address
+2016-09-27 16:34:03,190 ERROR retrieve_and_iterate_accounts 64: unsupported operand type(s) for +: 'int' and 'str'
+2016-09-27 16:35:01,996 INFO <module> 156: ***** Starting New Address Transfer ***** %s 
+
+2016-09-27 16:35:01,996 INFO authenticate 25: Attempting to Authenticate
+2016-09-27 16:35:01,996 INFO authenticate 32: Finished Authenticating
+2016-09-27 16:35:01,996 INFO retrieve_and_iterate_accounts 38: Retrieving all Accounts
+2016-09-27 16:35:01,996 INFO retrieve_and_iterate_accounts 49: Starting copying of Account Address to Shipping Address
+2016-09-27 16:35:02,961 ERROR retrieve_and_iterate_accounts 60: Account already has a shipping address: sexycustomer03
+2016-09-27 16:35:03,274 INFO copy_acc_address_to_ship_address 70: Creating a new shipping address object
+2016-09-27 16:35:03,665 INFO copy_acc_address_to_ship_address 91: Added a shipping address to account: sexycustomer02
+2016-09-27 16:35:04,103 INFO copy_acc_address_to_ship_address 101: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:35:04,607 INFO add_shipping_address_to_sub 118: Added a shipping address to subscription.
+2016-09-27 16:35:04,607 INFO copy_acc_address_to_ship_address 112: Completed Updating and saving Account: sexycustomer02 
+
+2016-09-27 16:35:04,993 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31wewqe6
+2016-09-27 16:35:05,181 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31qweqwe7
+2016-09-27 16:35:05,351 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31qqq5
+2016-09-27 16:35:05,524 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31ewew4
+2016-09-27 16:35:05,676 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31qwe3
+2016-09-27 16:35:05,852 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31w2
+2016-09-27 16:35:06,009 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31qwe1
+2016-09-27 16:35:06,181 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3ew9
+2016-09-27 16:35:06,337 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31ew0
+2016-09-27 16:35:06,503 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-37qweqw
+2016-09-27 16:35:06,665 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3ew8
+2016-09-27 16:35:06,806 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-36wqew
+2016-09-27 16:35:06,996 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3a3
+2016-09-27 16:35:07,765 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-35w
+2016-09-27 16:35:07,951 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3asds4
+2016-09-27 16:35:08,112 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3sdf2
+2016-09-27 16:35:08,264 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3sd1
+2016-09-27 16:35:08,426 ERROR retrieve_and_iterate_accounts 60: Account already has a shipping address: sexycustomer01
+2016-09-27 16:35:08,605 ERROR retrieve_and_iterate_accounts 60: Account already has a shipping address: asdfawesome
+2016-09-27 16:36:10,978 INFO <module> 156: ***** Starting New Address Transfer ***** %s 
+
+2016-09-27 16:36:10,978 INFO authenticate 25: Attempting to Authenticate
+2016-09-27 16:36:10,978 INFO authenticate 32: Finished Authenticating
+2016-09-27 16:36:10,978 INFO retrieve_and_iterate_accounts 38: Retrieving all Accounts
+2016-09-27 16:36:10,978 INFO retrieve_and_iterate_accounts 49: Starting copying of Account Address to Shipping Address
+2016-09-27 16:36:11,443 ERROR retrieve_and_iterate_accounts 60: Account already has a shipping address: sexycustomer03
+2016-09-27 16:36:11,617 INFO copy_acc_address_to_ship_address 70: Creating a new shipping address object
+2016-09-27 16:36:11,997 INFO copy_acc_address_to_ship_address 91: Added a shipping address to account: sexycustomer02
+2016-09-27 16:36:12,388 INFO copy_acc_address_to_ship_address 101: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:36:12,920 INFO add_shipping_address_to_sub 118: Added a shipping address to subscription.
+2016-09-27 16:36:12,920 INFO copy_acc_address_to_ship_address 112: Completed Updating and saving Account: sexycustomer02 
+
+2016-09-27 16:36:13,079 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31wewqe6
+2016-09-27 16:36:13,286 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31qweqwe7
+2016-09-27 16:36:13,435 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31qqq5
+2016-09-27 16:36:13,854 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31ewew4
+2016-09-27 16:36:13,995 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31qwe3
+2016-09-27 16:36:14,158 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31w2
+2016-09-27 16:36:14,306 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31qwe1
+2016-09-27 16:36:14,458 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3ew9
+2016-09-27 16:36:14,622 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-31ew0
+2016-09-27 16:36:14,789 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-37qweqw
+2016-09-27 16:36:14,960 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3ew8
+2016-09-27 16:36:15,107 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-36wqew
+2016-09-27 16:36:15,264 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3a3
+2016-09-27 16:36:15,433 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-35w
+2016-09-27 16:36:15,657 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3asds4
+2016-09-27 16:36:15,825 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3sdf2
+2016-09-27 16:36:15,980 INFO retrieve_and_iterate_accounts 62: Inactive Account: dwsmassuser-3sd1
+2016-09-27 16:36:16,145 ERROR retrieve_and_iterate_accounts 60: Account already has a shipping address: sexycustomer01
+2016-09-27 16:36:16,296 ERROR retrieve_and_iterate_accounts 60: Account already has a shipping address: asdfawesome
+2016-09-27 16:37:58,508 INFO <module> 155: ***** Starting New Address Transfer ***** %s 
+
+2016-09-27 16:37:58,508 INFO authenticate 25: Attempting to Authenticate
+2016-09-27 16:37:58,508 INFO authenticate 32: Finished Authenticating
+2016-09-27 16:37:58,508 INFO retrieve_and_iterate_accounts 38: Retrieving all Accounts
+2016-09-27 16:37:58,508 INFO retrieve_and_iterate_accounts 49: Starting copying of Account Address to Shipping Address
+2016-09-27 16:37:59,251 INFO copy_acc_address_to_ship_address 69: Creating a new shipping address object
+2016-09-27 16:37:59,975 INFO copy_acc_address_to_ship_address 90: Added a shipping address to account: sexycustomer03
+2016-09-27 16:38:00,496 INFO copy_acc_address_to_ship_address 100: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:38:00,919 INFO add_shipping_address_to_sub 117: Added a shipping address to subscription.
+2016-09-27 16:38:00,919 INFO copy_acc_address_to_ship_address 111: Completed Updating and saving Account: sexycustomer03 
+
+2016-09-27 16:38:01,124 ERROR retrieve_and_iterate_accounts 59: Account already has a shipping address: sexycustomer02
+2016-09-27 16:38:01,285 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31wewqe6
+2016-09-27 16:38:01,683 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qweqwe7
+2016-09-27 16:38:01,999 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qqq5
+2016-09-27 16:38:02,377 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31ewew4
+2016-09-27 16:38:02,542 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qwe3
+2016-09-27 16:38:02,730 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31w2
+2016-09-27 16:38:02,892 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qwe1
+2016-09-27 16:38:03,078 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3ew9
+2016-09-27 16:38:03,243 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31ew0
+2016-09-27 16:38:03,415 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-37qweqw
+2016-09-27 16:38:03,571 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3ew8
+2016-09-27 16:38:03,742 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-36wqew
+2016-09-27 16:38:03,929 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3a3
+2016-09-27 16:38:04,081 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-35w
+2016-09-27 16:38:04,240 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3asds4
+2016-09-27 16:38:04,388 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3sdf2
+2016-09-27 16:38:04,553 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3sd1
+2016-09-27 16:38:04,728 INFO copy_acc_address_to_ship_address 69: Creating a new shipping address object
+2016-09-27 16:38:04,895 ERROR copy_acc_address_to_ship_address 92: blank: shipping_address.city can't be blank; blank: shipping_address.zip can't be blank; blank: shipping_address.address1 can't be blank
+2016-09-27 16:38:04,900 ERROR copy_acc_address_to_ship_address 94: Unable to add a shipping address to: sexycustomer01
+2016-09-27 16:38:05,282 INFO copy_acc_address_to_ship_address 100: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:38:05,474 ERROR add_shipping_address_to_sub 119: id
+2016-09-27 16:38:05,475 ERROR add_shipping_address_to_sub 121: Unable to add a shipping address to subscription: sexycustomer01
+2016-09-27 16:38:05,475 INFO copy_acc_address_to_ship_address 111: Completed Updating and saving Account: sexycustomer01 
+
+2016-09-27 16:38:05,623 INFO copy_acc_address_to_ship_address 69: Creating a new shipping address object
+2016-09-27 16:38:05,803 ERROR copy_acc_address_to_ship_address 92: blank: shipping_address.city can't be blank; blank: shipping_address.zip can't be blank; blank: shipping_address.address1 can't be blank
+2016-09-27 16:38:05,803 ERROR copy_acc_address_to_ship_address 94: Unable to add a shipping address to: asdfawesome
+2016-09-27 16:38:06,224 INFO copy_acc_address_to_ship_address 100: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:38:06,432 ERROR add_shipping_address_to_sub 119: id
+2016-09-27 16:38:06,432 ERROR add_shipping_address_to_sub 121: Unable to add a shipping address to subscription: asdfawesome
+2016-09-27 16:38:06,432 INFO copy_acc_address_to_ship_address 111: Completed Updating and saving Account: asdfawesome 
+
+2016-09-27 16:42:52,194 INFO <module> 155: ***** Starting New Address Transfer ***** %s 
+
+2016-09-27 16:42:52,194 INFO authenticate 25: Attempting to Authenticate
+2016-09-27 16:42:52,194 INFO authenticate 32: Finished Authenticating
+2016-09-27 16:42:52,194 INFO retrieve_and_iterate_accounts 38: Retrieving all Accounts
+2016-09-27 16:42:52,194 INFO retrieve_and_iterate_accounts 49: Starting copying of Account Address to Shipping Address 
+
+2016-09-27 16:42:53,050 INFO copy_acc_address_to_ship_address 69: Creating a new shipping address object
+2016-09-27 16:42:53,433 INFO copy_acc_address_to_ship_address 90: Added a shipping address to account: sexycustomer03
+2016-09-27 16:42:54,024 INFO copy_acc_address_to_ship_address 100: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:42:54,728 INFO add_shipping_address_to_sub 117: Added a shipping address to subscription.
+2016-09-27 16:42:54,728 INFO copy_acc_address_to_ship_address 111: Completed Updating and saving Account: sexycustomer03 
+
+2016-09-27 16:42:54,894 ERROR retrieve_and_iterate_accounts 59: Account already has a shipping address: sexycustomer02
+2016-09-27 16:42:55,041 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31wewqe6
+2016-09-27 16:42:55,311 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qweqwe7
+2016-09-27 16:42:55,481 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qqq5
+2016-09-27 16:42:55,640 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31ewew4
+2016-09-27 16:42:55,786 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qwe3
+2016-09-27 16:42:55,933 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31w2
+2016-09-27 16:42:56,085 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31qwe1
+2016-09-27 16:42:56,244 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3ew9
+2016-09-27 16:42:56,389 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-31ew0
+2016-09-27 16:42:56,532 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-37qweqw
+2016-09-27 16:42:56,695 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3ew8
+2016-09-27 16:42:56,858 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-36wqew
+2016-09-27 16:42:57,000 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3a3
+2016-09-27 16:42:57,162 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-35w
+2016-09-27 16:42:57,305 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3asds4
+2016-09-27 16:42:57,453 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3sdf2
+2016-09-27 16:42:57,617 INFO retrieve_and_iterate_accounts 61: Inactive Account: dwsmassuser-3sd1
+2016-09-27 16:42:57,789 INFO copy_acc_address_to_ship_address 69: Creating a new shipping address object
+2016-09-27 16:42:57,951 ERROR copy_acc_address_to_ship_address 92: blank: shipping_address.city can't be blank; blank: shipping_address.zip can't be blank; blank: shipping_address.address1 can't be blank
+2016-09-27 16:42:57,952 ERROR copy_acc_address_to_ship_address 94: Unable to add a shipping address to: sexycustomer01
+2016-09-27 16:42:58,799 INFO copy_acc_address_to_ship_address 100: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:42:58,953 ERROR add_shipping_address_to_sub 119: id
+2016-09-27 16:42:58,954 ERROR add_shipping_address_to_sub 121: Unable to add a shipping address to subscription: sexycustomer01
+2016-09-27 16:42:58,954 INFO copy_acc_address_to_ship_address 111: Completed Updating and saving Account: sexycustomer01 
+
+2016-09-27 16:42:59,182 INFO copy_acc_address_to_ship_address 69: Creating a new shipping address object
+2016-09-27 16:42:59,547 INFO copy_acc_address_to_ship_address 90: Added a shipping address to account: asdfawesome
+2016-09-27 16:42:59,887 INFO copy_acc_address_to_ship_address 100: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 16:43:00,304 INFO add_shipping_address_to_sub 117: Added a shipping address to subscription.
+2016-09-27 16:43:00,304 INFO copy_acc_address_to_ship_address 111: Completed Updating and saving Account: asdfawesome 
+
+2016-09-27 16:52:09,098 INFO <module> 159: ***** Starting New Upload ***** csv_sample.csv 
+
+2016-09-27 16:52:09,098 INFO authenticate 21: Attempting to Authenticate
+2016-09-27 16:52:09,098 INFO authenticate 28: Finished Authenticating
+2016-09-27 16:52:09,098 INFO process_csv 34: Beginning to Process CSV: csv_sample.csv
+2016-09-27 16:52:09,099 DEBUG process_csv 35: Testing Mode: False
+2016-09-27 16:52:09,099 INFO process_csv 40: CSV file opened has 1 rows to process.
+2016-09-27 16:53:31,496 INFO <module> 159: ***** Starting New Upload ***** csv_sample.csv 
+
+2016-09-27 16:53:31,496 INFO authenticate 21: Attempting to Authenticate
+2016-09-27 16:53:31,497 INFO authenticate 28: Finished Authenticating
+2016-09-27 16:53:31,497 INFO process_csv 34: Beginning to Process CSV: csv_sample.csv
+2016-09-27 16:53:31,497 DEBUG process_csv 35: Testing Mode: False
+2016-09-27 16:53:31,497 INFO process_csv 40: CSV file opened has 1 rows to process.
+2016-09-27 16:53:32,339 INFO retrieve_account 73: Account found: asdfawesome
+2016-09-27 16:53:32,339 INFO create_shad 81: Creating a new shipping address object
+2016-09-27 17:00:40,761 INFO <module> 159: ***** Starting New Upload ***** csv_sample.csv 
+
+2016-09-27 17:00:40,762 INFO authenticate 21: Attempting to Authenticate
+2016-09-27 17:00:40,762 INFO authenticate 28: Finished Authenticating
+2016-09-27 17:00:40,762 INFO process_csv 34: Beginning to Process CSV: csv_sample.csv
+2016-09-27 17:00:40,762 DEBUG process_csv 35: Testing Mode: False
+2016-09-27 17:00:40,763 INFO process_csv 40: CSV file opened has 1 rows to process.
+2016-09-27 17:00:41,645 INFO retrieve_account 73: Account found: asdfawesome
+2016-09-27 17:00:41,645 INFO create_shad 81: Creating a new shipping address object
+2016-09-27 17:00:42,173 INFO add_shad_to_account 104: Adding a shipping address to account: asdfawesome
+2016-09-27 17:00:43,077 INFO add_shipping_address_to_sub 115: Attempting to add shipping address to 1 subscriptions.
+2016-09-27 17:00:43,793 INFO add_shipping_address_to_sub 120: Added a shipping address to subscription.
+2016-09-27 17:00:43,793 INFO process_csv 65: Completed Updating and saving Account: asdfawesome 
+

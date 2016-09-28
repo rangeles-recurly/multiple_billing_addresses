@@ -7,20 +7,20 @@ This Script that consumes a CSV of addresses, adds those shipping addresses
 to the account, then adds those shipping address to the subscription
 '''
 
-import sys, csv, logging
+import sys, csv, logging, recurly
 from recurly import Account, ShippingAddress
-from msa_account_address_to_sub_address import copy_acc_address_to_ship_address,
-    add_shipping_address_to_sub
+from msa_account_address_to_sub_address import copy_acc_address_to_ship_address, add_shipping_address_to_sub
 from logging.handlers import RotatingFileHandler
 
 # name of csv file to be passed as argument
 csv_file = sys.argv[1]
 log_level_desired = sys.argv[2]
+testing_mode = sys.argv[3]
 
 def authenticate():
     logger.info('Attempting to Authenticate')
     # recurly specific stuff
-    recurly.SUBDOMAIN = 'https://justdate.recurly.com'
+    recurly.SUBDOMAIN = 'justdate'
     recurly.API_KEY = '70c38822639f49f1a17e167eb8876682'
 
     # Set a default currency for your API requests
@@ -49,7 +49,8 @@ def process_csv(csv_to_process = csv_file, testing_mode = testing_mode):
             'iterate through each line in the CSV'
 
             'attempt to retrieve the account by code'
-            if account = retrieve_account(reader['account_code']):
+            account = retrieve_account(line['account_code'])
+            if account is not False:
 
                 'create the shipping address'
                 shad = create_shad(line)
@@ -85,8 +86,8 @@ def create_shad(csv_entry):
     shad.last_name = csv_entry['last_name']
     shad.phone = csv_entry['phone']
     shad.email = csv_entry['email']
-    shad.address1 = csv_entry['address.address1']
-    shad.address2 = csv_entry['address.address2']
+    shad.address1 = csv_entry['address1']
+    shad.address2 = csv_entry['address2']
     shad.city = csv_entry['city']
     shad.state = csv_entry['state']
     shad.zip = csv_entry['zip']
